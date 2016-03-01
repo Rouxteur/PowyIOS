@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C29A85F11C858D140017BB56 /* SigninViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29A85F01C858D140017BB56 /* SigninViewController.swift */; };
 		C2B3D8E31C7389D200E2E3FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B3D8E21C7389D200E2E3FE /* AppDelegate.swift */; };
 		C2B3D8E51C7389D200E2E3FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B3D8E41C7389D200E2E3FE /* ViewController.swift */; };
 		C2B3D8E81C7389D200E2E3FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2B3D8E61C7389D200E2E3FE /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C29A85F01C858D140017BB56 /* SigninViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SigninViewController.swift; sourceTree = "<group>"; };
 		C2B3D8DD1C7389D200E2E3FE /* popowi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = popowi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2B3D8E11C7389D200E2E3FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C2B3D8E21C7389D200E2E3FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 				C2B3D8E91C7389D200E2E3FE /* Images.xcassets */,
 				C2B3D8EB1C7389D200E2E3FE /* LaunchScreen.xib */,
 				C2B3D8E01C7389D200E2E3FE /* Supporting Files */,
+				C29A85F01C858D140017BB56 /* SigninViewController.swift */,
 			);
 			path = popowi;
 			sourceTree = "<group>";
@@ -214,6 +217,7 @@
 			files = (
 				C2B3D8E51C7389D200E2E3FE /* ViewController.swift in Sources */,
 				C2B3D8E31C7389D200E2E3FE /* AppDelegate.swift in Sources */,
+				C29A85F11C858D140017BB56 /* SigninViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +344,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = popowi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -350,6 +355,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = popowi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -409,6 +415,7 @@
 				C2B3D8FE1C7389D200E2E3FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C2B3D8FF1C7389D200E2E3FE /* Build configuration list for PBXNativeTarget "popowiTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +424,7 @@
 				C2B3D9011C7389D200E2E3FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
